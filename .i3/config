@@ -217,8 +217,9 @@ workspace 9 output DVI-D-0
 ### exec --no-startup-id joxi
 ### exec --no-startup-id megasync
 exec --no-startup-id gnome-settings-daemon
-exec --no-startup-id cinnamon-sound-applet
-# exec --no-startup-id nm-applet
+# exec --no-startup-id cinnamon-sound-applet
+exec --no-startup-id nm-applet
+exec --no-startup-id pa-applet
 # exec --no-startup-id feh --no-xinerama --bg-scale /usr/share/backgrounds/linuxmint-rafaela/rapciu_pearl.png --bg-scale /usr/share/backgrounds/linuxmint-rafaela/rapciu_pearl.png
 
 focus_on_window_activation focus
